@@ -7,8 +7,6 @@ const cors = require("cors");
 const videoRoute = require("./Routes/videosRoutes");
 const rateLimit = require("express-rate-limit");
 
-// DB_URI = mongodb+srv://aftabmulani1515:qtfsKMfFcipdNN1J@cluster0.1hu4gsn.mongodb.net/Clustor0
-
 const app = express();
 const POINT = process.env.NODE_ENV;
 const limiter = rateLimit({
